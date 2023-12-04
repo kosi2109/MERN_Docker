@@ -1,0 +1,1 @@
+# MERN Docker setup with docker compose
