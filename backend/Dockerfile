@@ -8,10 +8,10 @@ RUN npm install
 
 COPY . .
 
-RUN npm install -g -y typescript 
+RUN npm install -g -y typescript ts-node
 
 RUN npm run build
 
 EXPOSE 8000
 
-CMD [ "npm", "start" ]
+CMD [ "npm", "run", "dev" ]
